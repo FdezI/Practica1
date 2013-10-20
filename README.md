@@ -1,3 +1,7 @@
-The OpenShift `php` cartridge documentation can be found at:
+Introducción:
 
-https://github.com/openshift/origin-server/tree/master/cartridges/openshift-origin-cartridge-php/README.md
+La tarea a realizar se basa en la creación de una aplicación sobre un PaaS, en este caso se creará un
+periódico digital dinámico muy básico sobre OpenShift. Para ello se hará uso de las tecnologías PHP, MySQL y HTML.
+
+
+
