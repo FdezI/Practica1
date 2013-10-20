@@ -8,7 +8,10 @@ periódico digital dinámico muy básico sobre OpenShift.
 
 ### PaaS utilizado:
 
-El PaaS utilizado es el mencionado OpenShift de RedHat. 
+El PaaS utilizado es el mencionado OpenShift de RedHat. Este PaaS proporciona todas las herramientas necesarias
+para montar el periódico digital dinámico, además de tener una interfaz muy fácil de usar e intiutiva. También
+proporciona herramientas adicionales tales como phpMyadmin y diversos métodos de acceso al proyecto en desarrollo,
+tal como terminal en web, git, Web-UI, etc.
 
 
 ### Aplicación:
