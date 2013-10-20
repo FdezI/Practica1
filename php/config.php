@@ -21,9 +21,9 @@ $comments_per_page = 10;
 
 // --- Database config ---
 // Conection and tables
-define("DB_DSN", "mysql:host=localhost;dbname=x78552790" ); 
-define("DB_USER", "x78552790" ); 
-define("DB_PASSWORD", "78552790x" );
+define("DB_DSN", "mysql:host=localhost;dbname=periodico" ); 
+define("DB_USER", "adminsyRbICJ" ); 
+define("DB_PASSWORD", "VCe1Jt4ne-da" );
 define("DB_USERS_TB", "Users");
 define("DB_NEWS_TB", "News");
 define("DB_LASTNEWS_TB", "LastNews");
