@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Periódico Digital</title>
+		<meta name="author" CONTENT="Iñaki Fernández Janssens de Varebeke"/>
+		<link rel="STYLESHEET" href="MyCss.css">
+	</head>
+	<body>
+		<header id="banner-top">
+			<img src="adds/publitop.jpg" />
+		</header>
+		<aside id="banners-left">
+			<img src="adds/publi1.gif" />
+		</aside>
+		<aside id="banners-right">
+			<img src="adds/publi2.jpg" />
+		</aside>
+		<div id="mainsite">
+			<header>Periódico Digital</header>
+			<nav>
+				<a href="index.html">Portada</a>
+				<a href="internacional.html" class="fondo-internacional">Internacional</a>
+				<a href="politica.html" class="fondo-politica">Política</a>
+				<a href="sociedad.html" class="fondo-sociedad">Sociedad</a>
+				<a href="cultura.html" class="fondo-cultura">Cultura</a>
+			</nav>
+			<div id="mainbody">
+				<section id="inner-center" class="expand">
+					<header>Formulario de suscripción</header>
+					Para suscribirse al periódico debe rellenar el siguiente formulario:
+					<form action="procesar.php" method="post">
+						<fieldset>
+							<h4>Datos personales</h4>
+							<ul> 
+								<li>
+									<label for="name">Nombre:</label> 
+									<input type="text" name="name" id="name" required autofocus /> 
+								</li> 
+								<li>
+									<label for="surname">Apellidos:</label> 
+									<input type="text" name="surname" id="surname" required /> 
+								</li> 
+								<li>
+									<label for="email">E-mail:</label> 
+									<input type="email" name="email" id="email" required /> 
+								</li> 
+								<li> 
+									<label for="tfno">Teléfono:</label> 
+									<input type="tel" name="tfno" id="tfno" required />  
+								</li>
+								<li> 
+									<label for="address">Dirección:</label> 
+									<input type="text" name="address" id="address" required />
+								</li>
+								<li> 
+									<label for="zip">CP:</label> 
+									<input type="number" name="zip" id="zip" required />
+								</li>
+								<li> 
+									<label for="bithday">Fecha de nacimiento:</label> 
+									<input type="date" name="birthday" id="birthday" required /> 
+								</li> 
+							</fieldset>
+							<fieldset>
+								<h4>Otras suscripciones</h4>
+								<li>
+									<input type = "checkbox" id = "terms" name="menu" /> 
+									<label for="terms">He leído y acepto los términos de uso.</label>
+								</li>
+								<li>
+									<input type = "checkbox" id = "terms" name="menu" checked/> 
+									<label for="terms">Estoy de acuerdo con que se use mi información con fines estadísticos.</label>
+								</li>
+							</ul>
+							<input type = "submit" value = "Registrarse" />
+							<input type = "reset" value = "Reiniciar" />
+						</fieldset>
+					</form>
+				</section>
+			</div>
+			<footer>
+				Contacto: <a href="mailto:periodico@gmail.com"><strong>periodico@gmail.com</strong></a>, CP: <strong>18013</strong>, Tfno: <strong>666666666</strong>, | <a href="informacion.pdf"><strong>¿Cómo se hizo?</strong></a> | <a href=""><em>Suscribirse</em></a>
+			</footer>
+		</div>
+	</body>
+
+</html>
