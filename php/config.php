@@ -21,7 +21,10 @@ $comments_per_page = 10;
 
 // --- Database config ---
 // Conection and tables
-define("DB_DSN", "mysql:host=$OPENSHIFT_MYSQL_DB_HOST;dbname=periodico;port=$OPENSHIFT_MYSQL_DB_PORT" ); 
+define('DB_HOST', getenv('OPENSHIFT_MYSQL_DB_HOST'));
+define('DB_PORT',getenv('OPENSHIFT_MYSQL_DB_PORT'));
+define('DB_NAME','periodico');
+define("DB_DSN", 'mysql:dbname=' . DB_NAME . ';host=' . DB_HOST . ';port=' . DB_PORT);
 define("DB_USER", "adminsyRbICJ" ); 
 define("DB_PASSWORD", "VCe1Jt4ne-da" );
 define("DB_USERS_TB", "Users");
