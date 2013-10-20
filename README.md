@@ -21,3 +21,5 @@ El [periódico digital dinámico] (http://periodico-ivprs.rhcloud.com) desarroll
 ### [Documentación](https://github.com/FdezI/Practica1/wiki/Documentaci%C3%B3n)
 
 La documentación se encuentra en la [wiki de GitHub] (https://github.com/FdezI/Practica1/wiki/Documentaci%C3%B3n)
+
+Licencia: [GPLv3] (http://www.gnu.org/licenses/licenses.html#GPL)
